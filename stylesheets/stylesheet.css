@@ -315,6 +315,18 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#donate {
+  position: absolute;
+  bottom: -45px;
+  right: 10px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
 #downloads {
   position: absolute;
   width: 210px;
