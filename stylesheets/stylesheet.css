@@ -133,31 +133,6 @@ strong {
   font-weight: bold;
 }
 
-img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 0 0;
-  border: 1px solid #ebebeb;
-
-
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,.5);
-  -ms-box-shadow: 0 0 10px rgba(0,0,0,.5);
-}
-
-p img {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  text-align: center;
-  border: none;
-}
-
 pre, code {
   width: 100%;
   color: #222;
@@ -320,14 +295,12 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
+#background_image {
   position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
+  z-index: 0;
+  bottom: -365px;
+  right: -170px;
+  background: none;
 }
 
 .zip_download_link {
