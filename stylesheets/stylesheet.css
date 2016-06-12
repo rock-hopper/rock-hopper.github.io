@@ -224,6 +224,10 @@ td {
   padding-right: 10px;
   border: 0px solid #373737;
  }
+ 
+ input {
+   border: 0;
+ }
 
 
 /*******************************************************************************
@@ -266,11 +270,11 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: -moz-linear-gradient(#373737, #212121);
+  background: -webkit-linear-gradient(#373737, #212121);
+  background: -ms-linear-gradient(#373737, #212121);
+  background: -o-linear-gradient(#373737, #212121);
+  background: linear-gradient(#373737, #212121);
 }
 
 #header_wrap .inner {
@@ -293,12 +297,13 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#background_image {
+#penguin {
   position: absolute;
   z-index: 0;
   bottom: -365px;
   right: -170px;
   background: none;
+  max-width: 100%;
 }
 
 .zip_download_link {
@@ -358,9 +363,12 @@ Small Device Styles
   #downloads {
     display: none;
   }
+  
+  #penguin {
+    display: none;
+  }
 
   .inner {
-    min-width: 320px;
     max-width: 480px;
   }
 
@@ -393,7 +401,6 @@ Small Device Styles
   }
 
   code, pre {
-    min-width: 320px;
     max-width: 480px;
     font-size: 11px;
   }
